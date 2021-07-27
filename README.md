@@ -17,3 +17,5 @@ ok
 8
 Error: near line 5: disk I/O error
 ```
+
+Corresponding sqlite3 forum post: https://sqlite.org/forum/forumpost/e168e116a3
