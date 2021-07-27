@@ -2,6 +2,7 @@
 
 - backup.sendlog is a backup sendlog (sqlite3 database) created by backup tool https://bupstash.io .
 - enabling checksums on this file following https://www.sqlite.org/cksumvfs.html produces invalid checksums for included database.
+- Read download_sqlite3.sh and run to download the affected sqlite3 version (current release).
 - Read repro.sh and run to reproduce the issue.
 
 ```
