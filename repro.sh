@@ -26,7 +26,7 @@ pragma integrity_check;
 EOF
 
 # Enable cksumvfs following sqlite website.
-# Second vacuum fails with failed checksum when following.
+# Second vacuum fails with failed checksum.
 ./sqlite3-shell <<EOF
 .load ./cksumvfs.so
 .open backup.copy.sendlog
